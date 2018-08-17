@@ -9,7 +9,8 @@ using namespace std;
 
 void main()
 {
-	cout<< "hola mundo";
+	cout<< "hola mundo"<<endl;
+	cout<<"Daiki Chibana";
 	getch();
 }
 
