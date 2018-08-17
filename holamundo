@@ -12,3 +12,9 @@ void main()
 	cout<< "hola mundo";
 	getch();
 }
+
+pseudo codigo:
+
+Proceso Holamundo
+	Escribir "Hola mundo";
+FinProceso
