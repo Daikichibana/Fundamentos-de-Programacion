@@ -1,0 +1,32 @@
+/Area de un triangulo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	float base, altura, area;
+	cout<<"La area de un triangulo"<<endl;
+	cout<<"Por favor ingrese la base: ";
+	cin>>base;
+	cout<<"Por favor ingrese la altura: ";
+	cin>>altura;
+	area = (base*altura)/2;
+	cout<<"Su area es: "<< area <<endl;
+	cout<<"Daiki chibana";
+getch();
+}
+
+pseudocodigo
+
+Proceso Holamundo
+	Escribir "Ingrese base: "
+	Leer base
+	Escribir "Ingrese altura: "
+	Leer altura
+	area <-(base*altura)/2
+	Escribir area
+FinProceso
+
