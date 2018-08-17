@@ -21,7 +21,7 @@ getch();
 
 pseudocodigo
 
-Proceso Holamundo
+Proceso AreaTriangulo
 	Escribir "Ingrese base: "
 	Leer base
 	Escribir "Ingrese altura: "
