@@ -16,6 +16,7 @@ void main() {
 	cout<<"y al clamor de la guerra horroroso"<<endl;
 	cout<<"siguen hoy, en contraste armonioso"<<endl;
 	cout<<"dulces himnos de paz y de union."<<endl;
+	cout<<"Daiki chibana";
 getch();
 }
 
