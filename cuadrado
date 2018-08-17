@@ -1,0 +1,29 @@
+// Area de un cuadrado
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+
+void main() {
+	float base, area;
+	cout<<"La area de un cuadrado"<<endl;
+	cout<<"Por favor ingrese la base: ";
+	cin>>base;
+	area = pow(base, 2);
+	cout<<"El area es: "<<area<<endl;
+	cout<<"Daiki chibana";
+getch();
+}
+
+pseudocodigo
+
+Proceso Areacuadrado
+	Escribir "Ingrese base: "
+	Leer base
+	area <-base*base
+	Escribir area
+FinProceso
+
