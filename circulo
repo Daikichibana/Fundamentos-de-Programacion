@@ -13,7 +13,7 @@ void main() {
 	cout<<"La area de un circulo"<<endl;
 	cout<<"Por favor ingrese el radio: ";
 	cin>>radio;
-	area = pi*pow(radio, 2);;
+	area = pi*pow(radio, 2);
 	cout<<"El area es: "<<area<<endl;
 	cout<<"Daiki chibana";
 getch();
