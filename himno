@@ -1,3 +1,26 @@
+// Holamundo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	cout<<"Bolivianos el hado propicio"<<endl;
+	cout<<"Corono nuestros votos y anhelo"<<endl;
+	cout<<"Es ya libre, este suelo,"<<endl;
+	cout<<"Ya ceso su servil condicion"<<endl;
+	cout<<"Al estruendo marcial que ayer fuera"<<endl;
+	cout<<"y al clamor de la guerra horroroso"<<endl;
+	cout<<"siguen hoy, en contraste armonioso"<<endl;
+	cout<<"dulces himnos de paz y de union."<<endl;
+getch();
+}
+
+pseudocodigo
+
 Proceso HimnoNacional
 	Escribir "Bolivianos: el hado propicio"
 	Escribir "Corono nuestros votos y anhelo"
