@@ -1,0 +1,33 @@
+// Area de un paralelogramo
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	float base, altura, area;
+
+	cout<<"La area de un paralelogramo"<<endl;
+	cout<<"Por favor ingrese la base: ";
+	cin>>base;
+	cout<<"Por favor ingrese altura: ";
+	cin>>altura;
+	area = base*altura;
+	cout<<"El area es: "<<area<<endl;
+	cout<<"Daiki chibana";
+getch();
+}
+
+pseudocodigo
+
+Proceso Areaparalelogramo
+	Escribir "Ingrese base"
+	Leer base
+	Escribir "Ingrese altura"
+	leer altura
+	area <-base*altura
+	Escribir area
+FinProceso
+
