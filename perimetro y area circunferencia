@@ -20,7 +20,7 @@ getch();
 
 pseudocodigo
 
-Proceso holamundo
+Proceso PerimetroAreaCirculo
 	Escribir "Ingrese radio: "
 	Leer radio
 	area <-3.1416*(radio*radio)
