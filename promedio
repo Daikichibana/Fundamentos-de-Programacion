@@ -28,6 +28,8 @@ void main(){
 getch();
 }
 
+pseudocodigo
+
 Proceso Promedio
 	Escribir "Ingrese la nota 1: "
 	leer nota1
