@@ -1,0 +1,214 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	float cantidad, precio1, precio2, precio3, precio4, precio5, precio6;
+	cout<<"Programa de descuentos"<<endl<<endl;
+	cout<<"Cuantos productos va comprar?"<<endl;
+	cin>>cantidad;
+
+	if (cantidad <=6) {
+		if (cantidad == 1){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1;
+			cout<<"El precio final es: "<<precio1;
+		}
+		if (cantidad == 2){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1<<endl;
+			cout<<"Precio del segundo producto: ";
+			cin>>precio2;
+			precio2 = precio2 - (precio2*0.20);
+			cout<<"El descuento es: "<<precio2<<endl;
+			cout<<"El precio final es: "<<precio1+precio2;
+		}
+		if (cantidad == 3){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1<<endl;
+			cout<<"Precio del segundo producto: ";
+			cin>>precio2;
+			precio2 = precio2 - (precio2*0.20);
+			cout<<"El descuento es: "<<precio2<<endl;
+			cout<<"Precio del tercer producto: ";
+			cin>>precio3;
+			precio3 = precio3 - (precio3*0.10);
+			cout<<"El descuento es: "<<precio3<<endl;
+			cout<<"El precio Final es: "<<precio1+precio2+precio3;
+		}
+		if (cantidad == 4){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1<<endl;
+			cout<<"Precio del segundo producto: ";
+			cin>>precio2;
+			precio2 = precio2 - (precio2*0.20);
+			cout<<"El descuento es: "<<precio2<<endl;
+			cout<<"Precio del tercer producto: ";
+			cin>>precio3;
+			precio3 = precio3 - (precio3*0.10);
+			cout<<"El descuento es: "<<precio3<<endl;
+			cout<<"Precio del cuarto producto: ";
+			cin>>precio4;
+			precio4 = precio4 - (precio4*0.20);
+			cout<<"El descuento es: "<<precio4<<endl;
+			cout<<"El precio Final es: "<<precio1+precio2+precio3+precio4;
+		}
+		if (cantidad == 5){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1<<endl;
+			cout<<"Precio del segundo producto: ";
+			cin>>precio2;
+			precio2 = precio2 - (precio2*0.20);
+			cout<<"El descuento es: "<<precio2<<endl;
+			cout<<"Precio del tercer producto: ";
+			cin>>precio3;
+			precio3 = precio3 - (precio3*0.10);
+			cout<<"El descuento es: "<<precio3<<endl;
+			cout<<"Precio del cuarto producto: ";
+			cin>>precio4;
+			precio4 = precio4 - (precio4*0.20);
+			cout<<"El descuento es: "<<precio4<<endl;
+			cout<<"Precio del quinto producto: ";
+			cin>>precio5;
+			precio5 = precio5 - (precio5*0.20);
+			cout<<"El descuento es: "<<precio5<<endl;
+			cout<<"El precio Final es: "<<precio1+precio2+precio3+precio4+precio5;
+		}
+		if (cantidad == 6){
+			cout<<"Precio del primer producto: ";
+			cin>>precio1;
+			precio1 = precio1 - (precio1*0.30);
+			cout<<"El descuento es: "<<precio1<<endl;
+			cout<<"Precio del segundo producto: ";
+			cin>>precio2;
+			precio2 = precio2 - (precio2*0.20);
+			cout<<"El descuento es: "<<precio2<<endl;
+			cout<<"Precio del tercer producto: ";
+			cin>>precio3;
+			precio3 = precio3 - (precio3*0.10);
+			cout<<"El descuento es: "<<precio3<<endl;
+			cout<<"Precio del cuarto producto: ";
+			cin>>precio4;
+			precio4 = precio4 - (precio4*0.20);
+			cout<<"El descuento es: "<<precio4<<endl;
+			cout<<"Precio del quinto producto: ";
+			cin>>precio5;
+			precio5 = precio5 - (precio5*0.20);
+			cout<<"El descuento es: "<<precio5<<endl;
+			cout<<"Precio del sexto producto: ";
+			cin>>precio6;
+			precio6 = precio6 - (precio6*0.20);
+			cout<<"El descuento es: "<<precio6<<endl;
+			cout<<"El precio Final es: "<<precio1+precio2+precio3+precio4+precio5+precio6;
+		}
+	} else {
+		cout<<"No puede comprar mas de 6 productos, lo sentimos."<<endl;
+	}
+	cout<<endl;	
+	cout<<"Daiki Chibana Nakamura";
+getch();
+}
+
+Pseudocodigo
+
+Proceso descuentos
+	Escribir "Cuantos productos va comprar? "
+	Leer cantidad
+	Si cantidad=1 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "El descuento total es: ", precio1
+	FinSi
+	Si cantidad=2 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "precio 2: "
+		Leer precio2
+		precio2 <-precio2-(precio2*0.20)
+		Escribir "El descuento total es: ", precio1+precio2
+	FinSi
+	Si cantidad = 3 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "precio 2: "
+		Leer precio2
+		precio2 <-precio2-(precio2*0.20)
+		Escribir "precio 3: "
+		Leer precio3
+		precio3 <-precio3-(precio3*0.10)
+		Escribir "El descuento total es: ", precio1+precio2+precio3
+	FinSi
+	Si cantidad = 4 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "precio 2: "
+		Leer precio2
+		precio2 <-precio2-(precio2*0.20)
+		Escribir "precio 3: "
+		Leer precio3
+		precio3 <-precio3-(precio3*0.10)
+		Escribir "precio 4: "
+		Leer precio4
+		precio4 <-precio4-(precio4*0.20)
+		Escribir "El descuento total es: ", precio1+precio2+precio3+precio4
+	FinSi
+	Si cantidad = 5 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "precio 2: "
+		Leer precio2
+		precio2 <-precio2-(precio2*0.20)
+		Escribir "precio 3: "
+		Leer precio3
+		precio3 <-precio3-(precio3*0.10)
+		Escribir "precio 4: "
+		Leer precio4
+		precio4 <-precio4-(precio4*0.20)
+		Escribir "precio 5: "
+		Leer precio5
+		precio5 <-precio5-(precio5*0.20)
+		Escribir "El descuento total es: ", precio1+precio2+precio3+precio4+precio5
+	FinSi
+	Si cantidad = 6 Entonces
+		Escribir "precio 1: "
+		Leer precio1
+		precio1 <-precio1-(precio1*0.30)
+		Escribir "precio 2: "
+		Leer precio2
+		precio2 <-precio2-(precio2*0.20)
+		Escribir "precio 3: "
+		Leer precio3
+		precio3 <-precio3-(precio3*0.10)
+		Escribir "precio 4: "
+		Leer precio4
+		precio4 <-precio4-(precio4*0.20)
+		Escribir "precio 5: "
+		Leer precio5
+		precio5 <-precio5-(precio5*0.20)
+		Escribir "precio 6: "
+		Leer precio6
+		precio6 <-precio6-(precio6*0.20)
+		Escribir "El descuento total es: ", precio1+precio2+precio3+precio4+precio5+precio6
+	FinSi
+	Si cantidad > 6 Entonces
+		Escribir "No puede comprar mas de 6 productos, lo sentimos."
+	FinSi
+FinProceso
+
