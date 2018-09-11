@@ -3,28 +3,26 @@
 #include "conio.h"
 using namespace std;
 void main()
-  {int numbolita;
+  {int bolita;
    float preciototal;
-  //validar la entrada
   do {
-	  cout<<"ingresar numero de bolitas"<<endl;
-	  cin>>numbolita;
-  } while(numbolita<0);  //!(numcasisas>=0)
+	  cout<<"Ingrese el numero de la bolita"<<endl;
+	  cin>>bolita;
+  } while(bolita<0); 
    do {
 	  cout<<"ingresar el precio"<<endl;
 	  cin>>preciototal;
   } while(preciototal<=0); 
-   //determinar el descuento
-   if(numbolita==2)
+   if(bolita==2)
 	cout<<"el precio total es:"<<preciototal;
    else
-	   if(numbolita==4)
+	   if(bolita==4)
 		   cout<<"el precio total es:"<<preciototal*0.95;
 	   else
-		   if(numbolita==6)
+		   if(bolita==6)
 			   cout<<"el precio total es:"<<preciototal*0.8;
 		   else
-			   if(numbolita==8)
+			   if(bolita==8)
 				   cout<<"el precio total es:"<<preciototal*0.5;
 			   else
 				   cout<<"error numero de bolita no considerado"<<endl;
