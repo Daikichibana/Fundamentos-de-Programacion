@@ -30,8 +30,8 @@ cin>>opcion;
 
 
 switch(opcion){
-	case 1: system("cls"); aprender(opcion); getch(); system("cls");  break;
-	case 2: system("cls"); Encriptado(opcion); getch(); system("cls"); break;
+	case 1: system("cls"); aprender(opcion);  system("cls");  break;
+	case 2: system("cls"); Encriptado(opcion); system("cls"); break;
 	case 3: system("cls"); SobreNosotros(opcion); system("cls"); break; 
 	default: if(opcion != 0) {
 			 system("cls"); cout<<"Marque una opcion valida."<<endl; getch(); system("cls");
@@ -96,9 +96,9 @@ int respuestas[5] = {2,1,3,2,1}; //Determinan la respuesta correcta.
 string preguntas[5]; // Aca se guardan las preguntas.
 
 //Preguntas del test
-preguntas[0] = "Un troyano es... \n1) mi mejor amigo. \n2) Es un malware diseñado para controlar de forma remota un ordenador. \n3) Es un virus que roba claves bancarias.";
-preguntas[1] = "El phishing consiste en... \n1) Pedir al usuario informacion confidencial robando haciendose pasar por otra empresa. \n2) Robar datos a traves de la encriptacion \n3) Salvar el semestre haciendo un programa en c++.";
-preguntas[2] = "Un virus es... \n1) Un sistema operativo malicioso. \n2) Una serie de netflix. \n3) Un codigo maligno que infecta los archivos del ordenador.";
+preguntas[0] = "Un troyano es... \n1) Un virus creado para distribuir informacion personal. \n2) Es un malware diseñado para controlar de forma remota un ordenador. \n3) Es un virus que roba claves bancarias.";
+preguntas[1] = "El phishing consiste en... \n1) Pedir al usuario informacion confidencial robando haciendose pasar por otra empresa. \n2) Robar datos a traves de la encriptacion \n3) Falsificar el dinero con internet.";
+preguntas[2] = "Un virus es... \n1) Un sistema operativo malicioso. \n2) Un programa de gestion. \n3) Un codigo maligno que infecta los archivos del ordenador.";
 preguntas[3] = "Que siglas determinan que una pagina es segura? \n1) Httpu \n2) Https \n3) Httos";
 preguntas[4] = "El encriptado consiste en... \n1) Convertir el contenido de un mensaje en otro código para que pueda ser leído o interpretado en otro momento \n2) Navegar seguro por internet \n3) Una tecnica para dejar de recibir correos basura (spam). ";
 
@@ -119,11 +119,11 @@ system("cls");
 }
 cout<<"Te ganaste "<<puntos<<"/5 pts.";
 if (puntos == 5)
-	cout<<endl<<"Ya sos todo un capo.";
+	cout<<endl<<"Aprobaste con buen puntaje!";
 if (puntos < 5 && puntos > 2)
-	cout<<endl<<"Tenes que practicar un poco mas! VOS PODES!";
+	cout<<endl<<"Aprobaste pero tienes que estudiar mas!";
 if (puntos <= 2)
-	cout<<endl<<"Estudie papito que usted puede!";
+	cout<<endl<<"Lo siento pero haz reprobado.";
 }
 
 // Este es el menu principal de encriptado (opcion 2)
@@ -216,3 +216,4 @@ switch(op) {
 }
 } while (op != 0);
 }
+
