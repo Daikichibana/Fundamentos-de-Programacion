@@ -141,7 +141,7 @@ cin>>op;
 switch(op) {
 	case 1: system("cls"); cout<<endl<<endl<<"Podemos enviar mensajes mas seguros utilizando el metodo de encriptacion que consta";
 						   cout<<" en cambiar el valor de una letra en una palabra por otra dependiendo del algoritmo que se utilice."<<endl; getch(); system("cls"); break;
-	case 2: system("cls"); EncriptadoSubmenu(opcion); getch(); system("cls"); break;
+	case 2: system("cls"); EncriptadoSubmenu(opcion);  system("cls"); break;
 	case 3: system("cls"); op = 0; break;
 	case 0: system("cls"); opcion = 0; break;
 	default: system("cls"); cout<<endl<<"Por favor marque una opcion valida."<<endl ; getch(); system("cls");
